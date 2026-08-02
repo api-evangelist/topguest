@@ -1,4 +1,16 @@
 aid: topguest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topguest.png
 name: Topguest
 description: Topguest is a company surfaced as a portfolio company of uncork-capital and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -20,3 +32,30 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-web-status:
+  state: dormant
+  probed: '2026-07-21'
+  registrable_domain: topguest.com
+  registrar: GoDaddy.com, LLC
+  registry_expiry: '2028-02-01'
+  web_a_records: none
+  probed_hosts:
+  - topguest.com
+  - www.topguest.com
+  - api.topguest.com
+  - developer.topguest.com
+  - docs.topguest.com
+  - dev.topguest.com
+  - app.topguest.com
+  http: unresolvable
+  mail_only: true
+  mx: topguest-com.mail.protection.outlook.com
+  spf: 'v=spf1 include:sendgrid.net include:spf.protection.outlook.com ~all'
+  note: Domain is registered but has no web A records on the apex or any common
+    subdomain; it serves email only (Microsoft 365 + SendGrid). No website,
+    developer portal, documentation, or API surface exists to enrich.
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
